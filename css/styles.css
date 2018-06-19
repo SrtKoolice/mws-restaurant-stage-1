@@ -133,7 +133,6 @@ nav h1 a {
   padding: 0 10px;
   width: 200px;
 }
-
 /* ====================== Restaurant Listing ====================== */
 #restaurants-list {
   display: flex;
@@ -261,14 +260,10 @@ nav h1 a {
 #restaurant-container, #reviews-container {
   border-bottom: 1px solid #d9d9d9;
   border-top: 1px solid #fff;
-  /* padding: 40px 40px 30px; */
   width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
-}
-#reviews-container {
- 
 }
 #reviews-container h2 {
   color: #f58500;
@@ -283,11 +278,10 @@ nav h1 a {
   flex-direction: column;
   align-items: center;
   padding: 0;
-
 }
 #reviews-list li {
   background-color: #fff;
-    border: 2px solid #f3f3f3;
+  border: 2px solid #f3f3f3;
   display: block;
   list-style-type: none;
   margin: 0 0 30px;
@@ -306,7 +300,6 @@ nav h1 a {
   margin-right: auto;
   margin-left: auto;
 }
-
 .map-aria-description {
   display: none;
 }
